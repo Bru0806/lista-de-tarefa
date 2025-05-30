@@ -1,0 +1,155 @@
+body {
+ font-family: 'Segoe UI', sans-serif;
+      background: #222;
+      color: #fff;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      text-shadow: 0 0 10px #fff5;
+    }
+
+.container {
+  background:#333 ;
+  padding: 50px;
+  border-radius: 19px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+input[type="text"] {
+  width: 92%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background: #fff;
+  color: green;
+  font-weight: bold;
+     position: center; width: 100%;margin-top: 30px;
+      padding: 10px 30px;
+      font-size: 15px;
+      border: none;
+      border-radius: 10px;
+      transition: all 0.4s ease;
+      overflow: hidden;
+      color: green;
+    }
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  padding: 10px;
+  background: #444;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.remover-tarefa{
+  color: red;
+  cursor: pointer;
+  padding-left: 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.resumo-tarefas {
+  position: absolute;
+  top: 90px;
+  right: 300px; 
+  background: #333;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ffff;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+li input[type="checkbox"] {
+  transform: scale(1.2);
+}
+li span {
+  flex: 1;
+  cursor: pointer;
+}
+.concluida {
+  text-decoration: line-through; 
+  color: rgb(250, 215, 18);
+}
+.relogio-lateral {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background: #111;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: green;
+  font-size: 16px;
+  font-family: monospace;
+  box-shadow: 0 0 8px #000;
+}
+.decoracao-esquerda {
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+  width: 80px;
+  opacity: 0.8;
+}
+
+.decoracao-direita {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  width: 80px;
+  opacity: 0.8;
+}
+body.claro {
+  background: #f2f2f3b9;
+  color: white;  
+}
+.icones-laterais {
+  position: absolute;
+  right: 20px;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icone {
+  font-size: 24px;
+  cursor: pointer;
+  background: #444;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.icone:hover {
+  background: #666;
+}
+
+
+
+ 
+  
+
